@@ -18,7 +18,7 @@ public class HelloController {
 
     @RequestMapping("/hello/{id}")
     public String hello(@PathVariable("id") String id) {
-        return "hello,this is a springboot demo waha"+propertise.getName()+propertise.getNickname()+id;
+        return "hello,this is a springboot demo wahahaaaaaaaaaa"+propertise.getName()+propertise.getNickname()+id;
     }
 
 }
